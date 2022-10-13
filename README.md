@@ -2,6 +2,7 @@
 
 ## File Sctruct
 
+```
 index.html
     - iragarkiak/index.html
     - txaperlketa/
@@ -9,3 +10,4 @@ index.html
                 egutegia.html
     - klubak/index.html
     - kontaktua/index.html
+```

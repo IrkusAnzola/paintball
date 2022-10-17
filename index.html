@@ -1,12 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/jpg" href="media/logo.png" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>PaintBall</title>
+
 </head>
+
 <body>
-    
+    <div class="grid">
+        <header>
+            <div class="head">
+                <div>
+                    <img class="mainLogo" src="media/logo.png" alt="logo">
+                </div>
+                <div class="izenburua">
+                    <h1>Paintball Federazioa</h1>
+                </div>
+                <div>
+                    <img class="mainPaintball" src="media/paintball.png" alt="logo">
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="navlist">
+                <a class="active" href="/">Home</a>
+                <a href="/iragarkiak">Iragarkiak</a>
+                <!-- <a href="">Txapelketak</a>  -->
+                <button onclick="openIt()" class="dropbtn"><img id="rotate" src="media/drop.png">&nbsp;Txapelketak</button>
+                <div id="dropdown" class="dropdown-content">
+                    <a href="/txapelketak/egutegiak">Emaitzak eta Kalifikazioak</a>
+                    <a href="/txapelketak/emaitzak">Egutegiak</a>
+                </div>
+                <a href="/klubak">Klubak eta Taldeak</a>
+                <a class="split" href="/kontaktua">Kontaktua</a>
+            </div>
+        </nav>
+        <main>
+            main
+        </main>
+        <footer>
+            <div class="fufudiv">
+                <div class="footerlogo">
+                    <img src="media/logo.png">
+                </div>
+                <div class="footerrights">
+                    <p>Copyright © 2022 Paintball Federazioa. Eskubide guztiak erreserbatuak.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="invalidResolution">
+        Unsuported resolution! Try using a bigger screen or another device.
+    </div>
+    <script>
+        let openit = true;
+        function openIt() {
+            if (openit) {
+                document.getElementById("dropdown").classList.toggle("show");
+                document.getElementById("rotate").style.transform = 'rotate(0deg)';
+                openit = false;
+            } else {
+                document.getElementById("dropdown").classList.toggle("show");
+                document.getElementById("rotate").style.transform = 'rotate(-90deg)';
+                openit = true;
+            }
+        }
+    </script>
 </body>
+
 </html>

@@ -1,0 +1,60 @@
+main {
+    background: linear-gradient(-45deg, #96979a, #DA2DFF, #96979a, #96979a);/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 25%;
+	}
+	25% {
+		background-position: 100% 25%;
+	}
+	100% {
+		background-position: 0% 25%;
+	}
+}
+
+.tabla {
+    align-content: center;
+    margin: auto;
+    /* width: calc(50% - 300px); */
+}
+
+main table {
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    /* border: solid 15px; */
+    width: 100%;
+    padding: 30px;
+}
+
+main tr, th, td{
+    border: solid 5px;
+}
+
+main td {
+    text-align: center;
+    padding: 5px;
+}
+
+main th{
+    background-color: #E87DFF;
+
+}
+
+main a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+
+main a:hover{
+    color: aqua;
+}

@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="/media/logo.png" />
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/klubak.css">
+
     <title>PaintBall - Klubak</title>
 
 </head>
@@ -21,17 +23,16 @@
                 <div class="izenburua">
                     <h1>P.F. - Klubak</h1>
                 </div>
-                <div>
-                    <img class="mainPaintball" src="/media/paintball.png" alt="logo">
-                </div>
+
             </div>
         </header>
         <nav>
             <div class="navlist">
                 <a href="/">Hasiera</a>
-                <a href="/iragarkiak">Iragarkiak</a>
+                <a href="/berriak">berriak</a>
                 <!-- <a href="">Txapelketak</a>  -->
-                <button onclick="openIt()" class="dropbtn"><img id="rotate" src="/media/drop.png">&nbsp;Txapelketak</button>
+                <button onclick="openIt()" class="dropbtn"><img id="rotate"
+                        src="/media/drop.png">&nbsp;Txapelketak</button>
                 <div id="dropdown" class="dropdown-content">
                     <a href="/txapelketak/emaitzak">Emaitzak eta Kalifikazioak</a>
                     <a href="/txapelketak/egutegiak">Egutegiak</a>
@@ -41,7 +42,56 @@
             </div>
         </nav>
         <main>
-            main
+            <div class="tabla">
+                <table>
+                    <tr>
+                        <th>IZENA</th>
+                        <th>KOKAPENA</th>
+                    </tr>
+                    <tr>
+                        <td>Balls of Duty</td>
+                        <td><a target="_blank" href="https://goo.gl/maps/bhkX6deKDV1s921b8">Abadiño</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Wonderbolts</td>
+                        <td><a target="_blank" href="https://goo.gl/maps/haZCvdWGzFKXyN2r9">Getxo</a></td>
+                    </tr>
+                    <tr>
+                        <td>Los Flaming Fellas</td>
+                        <td><a target="_blank" href="https://goo.gl/maps/btfseyNyk7vbBqQN6">Alonsotegi</a></td>
+                    </tr>
+                    <tr>
+                        <td>Triple amenaza</td>
+                        <td><a target="_blank" href="https://goo.gl/maps/cvTcDmWDLhJHbTGp6">Mungia</a></td>
+                    </tr>
+                    <tr>
+                        <td>Bombas de pintura</td>
+                        <td><a target="_blank" href="https://goo.gl/maps/zgCLpoNhGhrvxBjk8">Bilbao</a></td>
+                    </tr>
+                    <tr>
+                        <td>Alicornios</td>
+                        <td><a target="_blank" href="https://goo.gl/maps/9A1q2bJ6xrD5rkNL6">Bakio</a></td>
+                    </tr>
+                    <tr>
+                        <td>Magos del paintball</td>
+                        <td><a target="_blank" href="https://goo.gl/maps/MutSSpUW56JQ41tU7">Basauri</a></td>
+                    </tr>
+                    <tr>
+                        <td>Perros rabiosos</td>
+                        <td><a target="_blank" href="https://goo.gl/maps/4c6Xo3A5rviPB5ro7">Berango</a></td>
+                    </tr>
+                    <tr>
+                        <td>Los jinetes de Drak</td>
+                        <td><a target="_blank" href="https://goo.gl/maps/SLoads7cHRKmtp9T6">Berriz</a></td>
+                    </tr>
+                    <tr>
+                        <td>Phyco Santas</td>
+                        <td><a target="_blank" href="https://goo.gl/maps/FHc2kNRndGrfKAUC9">Ugao-Miraballes</a></td>
+                    </tr>
+                </table>
+
+            </div>
         </main>
         <footer>
             <div class="fufudiv">
@@ -59,6 +109,7 @@
     </div>
     <script>
         let openit = true;
+
         function openIt() {
             if (openit) {
                 document.getElementById("dropdown").classList.toggle("show");

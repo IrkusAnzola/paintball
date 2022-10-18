@@ -4,7 +4,7 @@
 
 ```
 index.html
-    - iragarkiak/index.html
+    - berriak/index.html
     - txaperlketak/
                 emaitzak_eta_kalifikazioak.html
                 egutegia.html

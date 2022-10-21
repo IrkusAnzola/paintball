@@ -1,7 +1,7 @@
 main {
     background: linear-gradient(-45deg, #96979a, #DA2DFF, #96979a, #96979a);/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
 	background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
+	animation: gradient 10s ease infinite;
 }
 
 @keyframes gradient {
@@ -31,6 +31,7 @@ main table {
 }
 
 main tr, th, td{
+    border-radius: 10px;
     border: solid 5px;
 }
 

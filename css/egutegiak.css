@@ -1,0 +1,88 @@
+main {
+    background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
+    /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.berdea{
+    color: greenyellow;
+}
+
+h2{
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+}
+
+th {
+    border: solid;
+}
+
+td {
+    color: white;
+    padding: 5px;
+}
+
+.thvs {
+    border: none;
+}
+
+
+.vs {
+    height: 30px;
+    filter: invert(100%);
+}
+
+
+.tabla,
+td {
+    text-align: center;
+}
+
+.tabla {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.blue {
+    background-color: rgb(5, 157, 252)
+}
+
+.red {
+    background-color: red
+}
+
+.gray {
+    background-color: greenyellow
+}
+
+.eskerra {
+    margin: auto;
+}
+
+.eskuma {
+    margin: auto;
+}
+
+main {
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+}

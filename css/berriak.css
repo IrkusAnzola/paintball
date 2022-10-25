@@ -1,20 +1,23 @@
 main {
-    background: linear-gradient(-45deg, #96979a, #DA2DFF, #96979a, #96979a);/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
-	background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 25%;
-	}
-	25% {
-		background-position: 100% 25%;
-	}
-	100% {
-		background-position: 0% 25%;
-	}
-}
+    background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
+    /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 th img {
     margin-top: 20px;
@@ -55,5 +58,10 @@ td {
 
 .goikomargena{
     margin-top: 50px;
+}
+
+th, td{
+  color: white;
+
 }
 

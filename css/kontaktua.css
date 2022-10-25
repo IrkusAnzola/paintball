@@ -1,0 +1,67 @@
+main {
+  background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
+  /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+table{
+  border: solid 5px #db31ff;
+  border-radius: 15px;
+  margin: auto;
+  
+}
+
+th, td{
+  color: white;
+  padding: 10px;
+
+}
+
+.erdian a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.erdian{
+  font-size: 20px;
+}
+
+.erdian a:hover{
+  color: aqua;
+}
+
+.zuriz img{
+  filter: invert(100%);
+}
+
+.erdian{
+  margin-top: 130px;
+  
+}
+
+.space img{
+  padding-right: 10px;
+
+}
+
+.izenburua{
+  color: white;
+}
+
+

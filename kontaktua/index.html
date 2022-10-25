@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="/media/logo.png" />
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="/css/kontaktua.css">
+
     <title>PaintBall - Kontaktua</title>
 
 </head>
@@ -16,7 +18,7 @@
         <header>
             <div class="head">
                 <div>
-                    <a href="/index.html"><img class="mainLogo" src="/media/logo.png" alt="logo"></a> 
+                    <a href="/index.html"><img class="mainLogo" src="/media/logo.png" alt="logo"></a>
                 </div>
                 <div class="izenburua">
                     <h1>P.F. - Kontaktua</h1>
@@ -29,26 +31,60 @@
                 <a href="/">Hasiera</a>
                 <a href="/berriak">Berriak</a>
                 <!-- <a href="">Txapelketak</a>  -->
-                <button onclick="openIt()" class="dropbtn"><img id="rotate" src="/media/drop.png">&nbsp;Txapelketak</button>
+                <button onclick="openIt()" class="dropbtn"><img id="rotate"
+                        src="/media/drop.png">&nbsp;Txapelketak</button>
                 <div id="dropdown" class="dropdown-content">
                     <a href="/txapelketak/emaitzak">Emaitzak eta Kalifikazioak</a>
                     <a href="/txapelketak/egutegiak">Egutegiak</a>
+                    <a href="/txapelketak/arauak">Arauak</a>
+
                 </div>
                 <a href="/klubak">Klubak eta Taldeak</a>
                 <a class="active" class="split" href="/kontaktua">Kontaktua</a>
             </div>
         </nav>
+
         <main>
-            main
+            <div class="erdian">
+                <table>
+                    <tr>
+                        <th class="izenburua" colspan="3">PaintBall Federazioa</th>
+                    </tr>
+                    <tr class="zuriz">
+                        <th><img src="/media/llamada.png" height="20px"></th>
+                        <td>TELEFONOA:</td>
+                        <td><a href="tel:+34944125712">944 12 57 12</a></td>
+                    </tr>
+                    <tr class="zuriz">
+                        <th><img src="/media/email.png" height="20px"></th>
+                        <td>GMAIL:</td>
+                        <td><a href="mailto:contact@paintball.com">contact@paintball.com</a></td>
+                    </tr>
+                    <tr class="zuriz">
+                        <th><img src="/media/mapa.png" height="20px"></th>
+                        <td>HELBIDEA:</td>
+                        <td><a target="_blank" href="https://goo.gl/maps/82nqWD4Ga8cx4fBTA"> Ornilla Doctor Kalea, 2, 48004 Bilbo, Bizkaia</a></td>
+                    </tr>
+                    <tr>
+                        <th class="zuriz"><img src="/media/redes-sociales.png" height="30px"></th>
+                        <td>SARE SOZIALAK:</td>
+                        <td class="space"><a href=""><img src="/media/instagram.png" height="25px"><img src="/media/facebook.png" height="25px"><img src="/media/twitter.png" height="25px"><img src="/media/tik-tok.png" height="25px"><img src="/media/whatsapp.png" height="25px"></a> </td>
+                    </tr>
+
+
+                </table>
+            </div>
         </main>
+
         <footer>
             <div class="fufudiv">
                 <div class="footerlogo">
-                    <a href="/index.html"><img class="mainLogo" src="/media/logo.png" alt="logo"></a>  
+                    <a href="/index.html"><img class="mainLogo" src="/media/logo.png" alt="logo"></a>
                     <p><br>
                         Telefonoa: <a href="tel:+34944125712">944 12 57 12</a><br>
                         Gmail: <a href="mailto:contact@paintball.com">contact@paintball.com</a><br>
-                        Helbidea:<a target="_blank" href="https://goo.gl/maps/82nqWD4Ga8cx4fBTA"> Ornilla Doctor Kalea, 2, 48004 Bilbo, Bizkaia</a></p>
+                        Helbidea:<a target="_blank" href="https://goo.gl/maps/82nqWD4Ga8cx4fBTA"> Ornilla Doctor Kalea,
+                            2, 48004 Bilbo, Bizkaia</a></p>
                 </div>
                 <div class="footerflecha">
                     <a href="#title"><img src="/media/flechas-hacia-arriba.png" height="75px"></a <hr>
@@ -65,6 +101,7 @@
     </div>
     <script>
         let openit = true;
+
         function openIt() {
             if (openit) {
                 document.getElementById("dropdown").classList.toggle("show");

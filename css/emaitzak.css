@@ -1,0 +1,85 @@
+main {
+    background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
+    /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+main {
+    display: flex;
+    background-color: rgb(72, 72, 72);
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.puntuak ul {
+
+    color: rgb(255, 255, 255);
+    margin-left: -45px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.puntuak{
+    margin-top: 25px;
+
+    font-size: 25px;
+
+}
+
+.klasifikazioa ol{
+    color: rgb(255, 255, 255);
+
+}
+
+.klasifikazioa {
+    margin-top: 25px;
+    font-size: 25px;
+
+}
+
+.tituloa{
+    padding: 10px;
+    border: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.klasifikazioa a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.klasifikazioa a:hover{
+    color: aqua;
+}
+
+.tituloa2{
+    
+    padding: 10px;   
+    border: 15px;
+    background-color: #db31ff;
+    color: rgb(255, 255, 255);
+
+}
+
+

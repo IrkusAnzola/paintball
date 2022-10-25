@@ -1,22 +1,27 @@
 main {
-    background: linear-gradient(-45deg, #000000, #666666, #000000, #666666);/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
+  background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
+  /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 25%;
-	}
-	25% {
-		background-position: 100% 25%;
-	}
-	100% {
-		background-position: 0% 25%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -32,7 +37,8 @@ main {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -54,8 +60,9 @@ main {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -90,13 +97,14 @@ main {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
 main img {
-    /* width: 300px; */
-    height: 100%;
+  /* width: 300px; */
+  height: 100%;
 }
 
 /* Fading animation */
@@ -106,30 +114,36 @@ main img {
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 .koadroa {
-    position: relative;
-    margin: auto;
-    background-color: #7171719f;
-    width: 875px;
-    height: 195px;
-    padding: 1px;
-    border-radius: 15px;
-    border: solid;
+  position: relative;
+  margin: auto;
+  background-color: #7171719f;
+  width: 875px;
+  height: 195px;
+  padding: 1px;
+  border-radius: 15px;
+  border: solid;
 }
 
 .koadroBarruan {
+  color: white;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-iframe{
+iframe {
   border-radius: 15px;
-  display:block;
+  display: block;
   max-width: 1000px;
   position: relative;
   margin: auto;

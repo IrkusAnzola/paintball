@@ -86,3 +86,9 @@ main {
 h2 {
     text-align: center;
 }
+
+.behera {
+    filter: invert(100%);
+
+    
+}

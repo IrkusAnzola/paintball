@@ -48,8 +48,7 @@ td {
 }
 
 
-.tabla,
-td {
+.tabla,td {
     text-align: center;
 }
 
@@ -72,11 +71,11 @@ td {
 }
 
 .eskerra {
-    margin: auto;
+    margin: 20px auto;
 }
 
 .eskuma {
-    margin: auto;
+    margin: 20px auto auto auto;
 }
 
 main {
@@ -88,7 +87,6 @@ h2 {
 }
 
 .behera {
-    filter: invert(100%);
-
-    
+    filter: invert(100%);    
 }
+

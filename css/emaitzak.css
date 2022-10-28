@@ -3,83 +3,76 @@ main {
     /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
-  }
-  
-  @keyframes gradient {
+}
+
+@keyframes gradient {
     0% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
-  
+
     50% {
-      background-position: 100% 50%;
+        background-position: 100% 50%;
     }
-  
+
     100% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
-  }
-main {
-    display: flex;
-    background-color: rgb(72, 72, 72);
-    justify-content: center;
 }
 
-h2{
-    text-align: center;
+/* ---------------------------------------------------- */
+
+.tablaosoa tr,th,td{
+    border: solid rgb(255, 255, 255);
+    padding: 8px;
 }
 
-.puntuak ul {
-
-    color: rgb(255, 255, 255);
-    margin-left: -45px;
-    text-align: center;
-    list-style-type: none;
+.tablaosoa table{
+    margin: 30px auto;
+    width: 75%;
 }
 
-.puntuak{
-    margin-top: 25px;
-
-    font-size: 25px;
-
+.berdea{
+    background-color: rgb(18, 175, 29);
+    color: #000000;
 }
 
-.klasifikazioa ol{
-    color: rgb(255, 255, 255);
+.gorria{
+    background-color: red;
+    color: black;
 
 }
 
-.klasifikazioa {
-    margin-top: 25px;
-    font-size: 25px;
-
+.horia{
+    background-color: rgb(199, 199, 3);
+    color: black;
 }
 
-.tituloa{
-    padding: 10px;
-    border: 15px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+.laranja{
+    background-color: rgb(247, 114, 65);
+    color: black;
 }
 
-.klasifikazioa a{
-    font-size: 25px;
+#ezer{
+    border: none;
+}
+
+.zuria{
+    color: white;
+}
+
+.backcolor{
+    background-color: #ababab;
+}
+
+#backcolor2{
+    background-color: black;
+}
+
+.tablaosoa a{
+    color: white;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-
 }
 
-
-.klasifikazioa a:hover{
+.tablaosoa a:hover{
     color: aqua;
 }
-
-.tituloa2{
-    
-    padding: 10px;   
-    border: 15px;
-    background-color: #db31ff;
-    color: rgb(255, 255, 255);
-
-}
-
-

@@ -150,3 +150,49 @@ iframe {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.tablahasiera a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+}
+
+.tablahasiera {
+  padding: 15px;
+  background-color: rgb(181, 181, 181);
+  margin-top: 25px;
+}
+
+.tablahasiera h2{
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.tablahasiera table{
+  margin-top: -20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.tablahasiera table, tr, th {
+  border: solid rgba(255, 255, 255, 0);
+
+}
+
+.tablahasiera img{
+  height: 155px;
+  width: 260px;
+  border-radius: 100px;
+}
+
+.tablahasiera a:hover{
+  color: aqua;
+}
+
+.tablahasiera img:hover{
+  height: 165px;
+  width: 270px;
+}

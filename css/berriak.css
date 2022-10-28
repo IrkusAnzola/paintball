@@ -1,67 +1,70 @@
 main {
-    background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
-    /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
-    background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
-  }
-  
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-  
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
-    }
+  background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
+  /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
 
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 th img {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 
 .goikomargena img {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
-table, th, td {
-    /* border: 1px solid rgb(255, 255, 255); */
-    /* margin: 5px; */
-        vertical-align: text-top;
-        border-spacing: 40px 5px;
-        margin-bottom: 25px;
-        margin-top: 20px;
+table,
+th,
+td {
+  /* border: 1px solid rgb(255, 255, 255); */
+  /* margin: 5px; */
+  vertical-align: text-top;
+  border-spacing: 40px 5px;
+  margin-bottom: 25px;
+  margin-top: 20px;
 }
 
 td {
-    text-align: justify;
+  text-align: justify;
 }
 
-.argazkiak{
-    width: 320px;
-    height: 180px;   
+.argazkiak {
+  width: 320px;
+  height: 180px;
+
 }
 
-.polizia{
-    text-align: left;
-    float: left;    
+.polizia {
+  text-align: left;
+  float: left;
 }
 
 .poltextua p {
-    text-align:right;
-    float: left;  
+  text-align: right;
+  float: left;
 }
 
-.goikomargena{
-    margin-top: 50px;
+.goikomargena {
+  margin-top: 50px;
 }
 
-th, td{
+th,
+td {
   color: white;
 
 }
-

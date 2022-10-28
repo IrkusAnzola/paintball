@@ -197,7 +197,7 @@ button.active {
     transition: all .3s;
 }
 
-.footerflecha img:hover{    
+.footerflecha img:hover {
     height: 60px;
 }
 
@@ -306,16 +306,16 @@ footer {
 ::-webkit-scrollbar {
     width: 7px;
     background-color: black;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     box-shadow: inset 0 0 2px grey;
     border-radius: 5px;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: #DA2DFF;
     border-radius: 5px;
-  }
+}

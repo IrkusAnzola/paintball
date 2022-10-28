@@ -1,69 +1,71 @@
 main {
-    background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
-    /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
-    background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
-  }
-  
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-  
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
-    }
+  background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
+  /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
 }
 
-td{
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+td {
   color: white;
 
 }
+
 .tabla {
-    align-content: center;
-    margin: auto;
-    /* width: calc(50% - 300px); */
+  align-content: center;
+  margin: auto;
+  /* width: calc(50% - 300px); */
 }
 
 main table {
-    /* margin-top: 10px;
+  /* margin-top: 10px;
     margin-bottom: 10px; */
-    /* border: solid 15px; */
-    width: 100%;
-    padding: 30px;
+  /* border: solid 15px; */
+  width: 100%;
+  padding: 30px;
 }
 
-main tr, th{
-  
-    border-radius: 10px;
-    border: solid 5px;
+main tr,
+th {
+
+  border-radius: 10px;
+  border: solid 5px;
 }
 
 main td {
-    text-align: center;
-    padding: 5px;
+  text-align: center;
+  padding: 5px;
 }
 
-main th{
-    background-color: #E87DFF;
+main th {
+  background-color: #E87DFF;
 
 }
 
 main a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    margin: 0px;
-    display: block;
-    background-color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 0px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0);
 
 }
 
 
-main a:hover{
-    color: aqua;
+main a:hover {
+  color: aqua;
 }

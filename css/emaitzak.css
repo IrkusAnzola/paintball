@@ -76,3 +76,33 @@ main {
 .tablaosoa a:hover{
     color: aqua;
 }
+
+#ChampionsLeague{
+    background-color: rgb(18, 175, 29);
+    border: none;
+}
+
+#EuropaLeague{
+    background-color: rgb(199, 199, 3);
+    border: none;
+
+}
+
+#UEFAConferenceLeague{
+    background-color: rgb(247, 114, 65);
+    border: none;
+
+}
+
+#Gainbehera{
+    background-color: red;
+    border: none
+
+}
+
+#champion{
+    margin-left: 165px;
+    margin-bottom: 25px;
+    color: white;
+
+}

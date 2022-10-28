@@ -1,72 +1,80 @@
 main {
-    background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
-    /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
-    background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
-  }
-  
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-  
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
-  * {
-    box-sizing: border-box
+  background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
+  /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
 
-.zuria  {
-    color: white;
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+* {
+  box-sizing: border-box
+}
+
+.zuria {
+  color: white;
 }
 
 .marjen {
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: -30px;
+  margin-right: 30px;
 }
 
-.margina-top{
-    margin-top: 40px;
+.margina-top {
+  margin-top: 40px;
 }
 
-#texto{
-    font-size: 20px;
+#texto {
+  font-size: 20px;
 }
 
 #tamaina {
-    font-size: 30px;
+  font-size: 30px;
 }
 
-.tablak{
-    margin-top: 60px;
+.tablak {
+  margin-top: 60px;
+  background-color: #353537;
+  padding-top: 2px;
+  padding-bottom: 30px;
 }
 
-.tabla1, th , td{
-    border: solid rgba(255, 255, 255, 0);
-    color: white;
+.tabla1,th,td {
+  border: solid rgba(255, 255, 255, 0);
+  color: white;
+  margin-right: 30px;
+
 }
 
-.tabla1 td{
-    text-align: center;
-}
-.tabla2 td{
-    text-align: center;
+.tabla1 td {
+  text-align: center;
 }
 
-.tabla2{
-    margin-top: 40px;
+.tabla2,th,td {
+  text-align: center;
+  margin-right: 30px;
+
 }
 
-#ekipamendua{
-    text-align: center;
-    font-size: 40px;
+.tabla2 {
+  margin-top: 40px;
+}
+
+#ekipamendua {
+  text-align: center;
+  font-size: 40px;
 }

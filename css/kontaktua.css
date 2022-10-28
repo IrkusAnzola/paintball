@@ -22,15 +22,17 @@ main {
 table{
   border: solid 5px #db31ff;
   border-radius: 15px;
-  margin: auto;
+  margin: auto ;
   
 }
 
 th, td{
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 10px;
+  padding-right: 13px;
 
 }
+
 
 .erdian a{
   text-decoration: none;
@@ -51,8 +53,9 @@ th, td{
 }
 
 .erdian{
-  margin-top: 70px;
-  
+  margin-top: 40px;
+  margin-bottom: 40px;
+
 }
 
 .space img{
@@ -62,6 +65,12 @@ th, td{
 
 .izenburua{
   color: white;
+}
+
+.erdian iframe{
+  width: 100%;
+  border-radius: 15px;
+  border-color: rgba(0, 0, 0, 0);
 }
 
 

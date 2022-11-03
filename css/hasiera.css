@@ -184,7 +184,8 @@ iframe {
 .tablahasiera img{
   height: 155px;
   width: 260px;
-  border-radius: 100px;
+  border-radius: 30px;
+  transition: all 1s;
 }
 
 .tablahasiera a:hover{

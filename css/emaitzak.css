@@ -77,6 +77,8 @@ main {
     color: aqua;
 }
 
+
+
 #ChampionsLeague{
     background-color: rgb(18, 175, 29);
     border: none;
@@ -105,4 +107,18 @@ main {
     margin-bottom: 25px;
     color: white;
 
+}
+
+#xd{
+    display:inline-flex;
+}
+    
+.azalpentabla{
+    color: white;
+    margin-left: 50px;
+    
+}
+
+.beltza{
+    background-color: #000000;
 }

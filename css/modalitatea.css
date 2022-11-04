@@ -1,0 +1,72 @@
+main {
+  background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
+  /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.modoak {
+  max-width: 900px;
+  margin: 0 auto;
+  font: .9em/1.2 Arial, Helvetica, sans-serif
+}
+
+.box {
+  float: left;
+  margin-right: 15px;
+  width: 300px;
+  height: 230px;
+  border-radius: 5px;
+  background-color: rgba(207, 232, 220, 0);
+  padding: 1em;
+}
+
+.box_right {
+  float: right;
+  margin-left: 15px;
+  width: 300px;
+  height: 230px;
+  border-radius: 5px;
+  background-color: rgba(207, 232, 220, 0);
+  padding: 1em;
+}
+
+#goikomargen{
+  margin-top: 40px;
+}
+
+.modoak h1{
+  color: white;
+  font-size: 30px;
+}
+
+.modoak p{
+  text-align: justify;
+  color: white;
+}
+
+#img1{
+  width: 300px;
+  height: 230px;
+  border: solid 2px aqua;
+}
+
+#img2{
+  width: 300px;
+  height: 150px;
+  border: solid 2px aqua;
+}

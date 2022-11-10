@@ -1,3 +1,4 @@
+/* Web orrialdearen atzeko planoaren estruktura */
 main {
     background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
     /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
@@ -20,7 +21,7 @@ main {
 }
 
 /* ---------------------------------------------------- */
-
+/* Marjinak eta koloreak */
 .tablaosoa tr,th,td{
     border: solid rgb(255, 255, 255);
     padding: 8px;
@@ -103,8 +104,8 @@ main {
 }
 
 #champion{
-    margin-left: 165px;
-    margin-bottom: 25px;
+    margin-left: 158px;
+    margin-bottom: 30px;
     color: white;
 
 }

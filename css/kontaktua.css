@@ -18,14 +18,15 @@ main {
     background-position: 0% 50%;
   }
 }
-
-table{
+/* Kontaktu tablaren estiloa */
+#tablakontack{
   border: solid 5px #db31ff;
   border-radius: 15px;
   margin: auto ;
+  background-color: rgba(43, 43, 43, 0.347);
   
 }
-
+/* Edukiaren estiloa */
 th, td{
   color: rgb(255, 255, 255);
   padding: 10px;

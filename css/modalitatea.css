@@ -24,7 +24,7 @@ main {
   margin: 0 auto;
   font: .9em/1.2 Arial, Helvetica, sans-serif
 }
-
+/* Argazkiak joango diren "Box-en" estiloa eta kokapena float erabiliz */
 .box {
   float: left;
   margin-right: 15px;
@@ -44,21 +44,21 @@ main {
   background-color: rgba(207, 232, 220, 0);
   padding: 1em;
 }
-
+/* Izenburua markatzen duen marjina */
 #goikomargen{
   margin-top: 40px;
 }
-
+/* Izenburuaren estiloa */
 .modoak h1{
   color: white;
   font-size: 30px;
 }
-
+/* Testuaren estiloa */
 .modoak p{
   text-align: justify;
   color: white;
 }
-
+/* Argazkien tamaina eta bordearen kolorea */
 #img1{
   width: 300px;
   height: 230px;

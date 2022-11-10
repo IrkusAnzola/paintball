@@ -1,3 +1,4 @@
+/* Web orrialdearen atzeko planoaren estruktura */
 main {
     background: linear-gradient(-45deg, #000000, #ababab, #000000, #ababab);
     /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
@@ -18,7 +19,7 @@ main {
         background-position: 0% 50%;
     }
 }
-
+/* Letren kolorea */
 .berdea{
     color: greenyellow;
 }
@@ -48,10 +49,10 @@ td {
 }
 
 
-.tabla,td {
+.tabla, td {
     text-align: center;
 }
-
+/* Marjinak eta koloreak */
 .tabla {
     margin-left: auto;
     margin-right: auto;

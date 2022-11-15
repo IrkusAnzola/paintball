@@ -55,6 +55,7 @@ main {
 }
 /* Testuaren estiloa */
 .modoak p{
+  font-size: 16px;
   text-align: justify;
   color: white;
 }

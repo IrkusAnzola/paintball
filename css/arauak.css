@@ -30,10 +30,10 @@ main {
 
 /* Marjinak */
 .marjen {
-  margin-left: 50px;
+  margin-left: 60px;
   margin-top: 30px;
-  margin-bottom: -30px;
-  margin-right: 30px;
+  margin-bottom: -10px;
+  margin-right: 50px;
 }
 
 .margina-top {
@@ -83,4 +83,31 @@ main {
 #ekipamendua {
   text-align: center;
   font-size: 40px;
+}
+
+#arg1{
+  height: 250px;
+}
+
+#arg2{
+  height: 200px;
+  width: 200px;
+}
+
+#arg3{
+  height: 200px;
+}
+
+#arg4{
+  height: 225px;
+}
+
+#arg5{
+  height: 200px;
+  width: 300px;
+
+}
+
+#arg6{
+  height: 200px;
 }
